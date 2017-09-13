@@ -1,0 +1,26 @@
+{
+  "name": "helen-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oltur/helen-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oltur/helen-tests/issues"
+  },
+  "homepage": "https://github.com/oltur/helen-tests#readme",
+  "dependencies": {
+    "mongoose": "^4.11.11",
+    "protractor": "^5.1.2"
+  },
+  "devDependencies": {
+    "mssql": "^4.0.4"
+  }
+}
