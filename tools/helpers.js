@@ -17,6 +17,11 @@ class Helpers {
         this.c = c;
     }
 
+    selectOptionByText(element, value) {
+        var option = element.element(by.xpath(`//option[text()="${value}"]`));
+        option.click();
+    };
+
     logoutIfNeeded() {
         this.o.log(`Trying to log out`);
         return this.d.get(this.getStartPage())
